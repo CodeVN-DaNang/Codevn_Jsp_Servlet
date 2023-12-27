@@ -3,14 +3,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/vannhat/Documents/NHATTV_JAVA/Jsp-Servlet/demo_codevn5/src/java/DAO/StudentDAO.java</file>
-            <file>file:/Users/vannhat/Documents/NHATTV_JAVA/Jsp-Servlet/demo_codevn5/web/META-INF/context.xml</file>
-            <file>file:/Users/vannhat/Documents/NHATTV_JAVA/Jsp-Servlet/demo_codevn5/src/java/config/BaseConnection.java</file>
-            <file>file:/Users/vannhat/Documents/NHATTV_JAVA/Jsp-Servlet/demo_codevn5/web/calculation.jsp</file>
-            <file>file:/Users/vannhat/Documents/NHATTV_JAVA/Jsp-Servlet/demo_codevn5/web/index.html</file>
-            <file>file:/Users/vannhat/Documents/NHATTV_JAVA/Jsp-Servlet/demo_codevn5/src/java/model/Student.java</file>
-            <file>file:/Users/vannhat/Documents/NHATTV_JAVA/Jsp-Servlet/demo_codevn5/web/WEB-INF/web.xml</file>
-            <file>file:/Users/vannhat/Documents/NHATTV_JAVA/Jsp-Servlet/demo_codevn5/src/java/servlet/CalculationServlet.java</file>
+            <file>file:/Users/vannhat/Documents/Codevn_Jsp_Servlet/demo_codevn5/src/java/servlet/CalculationServlet.java</file>
+            <file>file:/Users/vannhat/Documents/Codevn_Jsp_Servlet/demo_codevn5/web/calculation.jsp</file>
         </group>
     </open-files>
 </project-private>
