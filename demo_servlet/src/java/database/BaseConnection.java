@@ -12,13 +12,12 @@ import java.sql.DriverManager;
  * @author vannhat
  */
 public class BaseConnection {
-
-    private static String url = "jdbc:sqlserver://localhost:1433;databaseName=qlcandidate;encrypt=true;trustServerCertificate=true;";
-    private static String className = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
-    private static String username = "SA";
-    private static String password = "Nhat@2102";
-
-    public static Connection getConnection() {
+    private String url = "jdbc:sqlserver://localhost:1433;databaseName=demo_servlet;encrypt=true;trustServerCertificate=true;";
+    private String className = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
+    private String username = "SA";
+    private String password = "Nhat@2102";
+    
+    public Connection getConnection(){
         Connection conn = null;
         try {
             Class.forName(className);
@@ -28,5 +27,5 @@ public class BaseConnection {
         }
         return conn;
     }
-
+    
 }

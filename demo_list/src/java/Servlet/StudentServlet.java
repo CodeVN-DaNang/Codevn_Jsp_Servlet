@@ -5,7 +5,9 @@
 package Servlet;
 
 import DAO.StudentDAO;
+import Model.Student;
 import java.io.IOException;
+import java.util.ArrayList;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -21,9 +23,11 @@ public class StudentServlet extends HttpServlet {
     
     @Override
     public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException, ServletException{
-        req.setAttribute("studentList", stdDAO.getAllStudent());
+        ArrayList<Student> stdList = stdDAO.getAllStudent();
+        req.setAttribute("studentList", stdList);
         RequestDispatcher dispatcher = req.getRequestDispatcher("list.jsp");
         dispatcher.forward(req, res);
+        System.out.println(stdList.toString());
     }
     
     @Override

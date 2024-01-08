@@ -13,25 +13,21 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <table id="candidateTable" class="table table-striped">
-            <thead class="thead-dark">
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Country</th>
+                <th>Male</th>
+            </tr>
+            <c:forEach items="${studentList}" var="student">
                 <tr>
-                    <th>Index</th>
-                    <th>First Name</th>
-                    <th>Last Name</th>
-                    <th>Type</th>
+                    <td>${student.id}</td>
+                    <td>${student.name}</td>
+                    <td>${student.country}</td>
+                    <td>${student.gender}</td>
                 </tr>
-            </thead>
-            <tbody>
-                <c:forEach var="candidate" items="${candidateList}">
-                    <tr>
-                        <td>${candidate.candidateId}</td>
-                        <td>${candidate.candidateFirstName}</td>
-                        <td>${candidate.candidateLastName}</td>
-                        <td>${candidate.candidateType.getTypeName()}</td>
-                    </tr>
-                </c:forEach>
-            </tbody>
+            </c:forEach>
         </table>
     </body>
 </html>
