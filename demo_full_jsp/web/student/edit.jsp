@@ -71,7 +71,7 @@
 <body>
         <button><a href="http://localhost:8080/codevn5/student/" style="text-decoration: none;">Back to menu</a></button>
 
-    <form method="POST" action="/codevn5/student/save" object="${student}">
+    <form method="POST" object="${student}">
         <div>
             <span>Name</span>
             <input type="text" value="${student.name}" name="name">
