@@ -1,0 +1,63 @@
+/* styles.css */
+
+/* Logo */
+.logo-img {
+    width: 150px;
+    height: auto;
+}
+
+/* Search Bar */
+.search-input {
+    border-radius: 30px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    /* Adjust the width as a percentage */
+    max-width: 500px;
+    /* Add a maximum width if needed */
+}
+
+.search-button {
+    border-radius: 30px;
+    padding: 12px 30px;
+    font-size: 1rem;
+    border: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #e60023;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #c7001d;
+}
+
+/* Navigation Links */
+.navbar-nav .nav-link {
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #e60023;
+}
+
+/* Login Button */
+.login-button {
+    border-radius: 30px;
+    padding: 12px 30px;
+    font-size: 1rem;
+    border: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}

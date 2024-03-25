@@ -1,0 +1,146 @@
+/* Add your custom styles here */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+/* For the title "Motorbike Shop" */
+h1 {
+  color: #000080;
+}
+
+/* For the navigation links */
+.navbar-dark .navbar-nav .nav-link {
+  color: #000080;
+}
+
+/* For the search button text */
+.btn-outline-light {
+  color: #000080;
+}
+
+/* For the "Login" button text */
+.btn-outline-light.mr-3 {
+  color: #000080;
+}
+
+/* For the shopping cart icon */
+.cart-icon .fa-shopping-cart {
+  color: #000080;
+}
+
+.navbar-nav .nav-link {
+  color: #000080; /* Set text color to blue */
+  border-bottom: 2px solid transparent; /* Add transparent border */
+  transition: border-color 0.3s ease; /* Add transition effect for border color */
+}
+
+/* For the navigation links hover state */
+.navbar-nav .nav-link:hover {
+  border-bottom-color: blue; /* Change border color on hover to blue */
+}
+
+
+
+section {
+  padding: 40px 0;
+}
+
+section h2 {
+  margin-bottom: 20px;
+  color: #007bff; /* Blue heading color */
+}
+
+.about-item {
+  padding: 30px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.about-item:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.about-item h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.about-item p {
+  font-size: 1.1rem;
+}
+
+
+.product {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.product img {
+  max-width: 100%;
+}
+
+button {
+  background-color: #007bff; /* Blue button background */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #f8f9fa; /* Light gray background */
+  padding: 50px 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 20px;
+}
+
+.contact-form button {
+  background-color: #007bff; /* Primary color */
+  border-color: #007bff;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 20px 0;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  text-align: right;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.social-icons li:first-child {
+  margin-left: 0;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 20px;
+}
+

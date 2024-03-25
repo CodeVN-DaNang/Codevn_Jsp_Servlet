@@ -4,7 +4,15 @@
         <servlet-name>StudentServlet</servlet-name>
         <servlet-class>Servlet.StudentServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>Servlet.LoginServlet</servlet-class>
+    </servlet>
 
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern></url-pattern>
+    </servlet-mapping>
     <servlet-mapping>
         <servlet-name>StudentServlet</servlet-name>
         <url-pattern>/student/</url-pattern>
@@ -21,8 +29,10 @@
         <servlet-name>StudentServlet</servlet-name>
         <url-pattern>/student/edit</url-pattern>
     </servlet-mapping>
-
+<!--    <session-config>
+        <session-timeout>5</session-timeout>
+    </session-config>-->
     <welcome-file-list>
-        <welcome-file>index.html</welcome-file>
+        <welcome-file>login.jsp</welcome-file>
     </welcome-file-list>
 </web-app>

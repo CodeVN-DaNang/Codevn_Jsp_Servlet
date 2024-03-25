@@ -1,2 +1,0 @@
-Viết 1 chương trình thêm mới 1 học sinh tại jsp với các thuộc tính tên, tuổi, quê quán, ngày tháng năm sinh, giới tính.
-Thực hiện việc thêm mới vào trong 1 danh sách ở servlet và in ra màn hình terminal tất cả học sinh đang có trong danh sách
