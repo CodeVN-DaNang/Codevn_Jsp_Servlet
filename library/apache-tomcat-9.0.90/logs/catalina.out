@@ -1,0 +1,55 @@
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+usage: java org.apache.catalina.startup.Catalina [ -config {pathname} ] [ -nonaming ] [ -generateCode [ {pathname} ] ] [ -useGeneratedCode ] { -help | start | stop }
+24-Jun-2024 19:33:44.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.90
+24-Jun-2024 19:33:44.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 14 2024 14:45:13 UTC
+24-Jun-2024 19:33:44.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.90.0
+24-Jun-2024 19:33:44.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+24-Jun-2024 19:33:44.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.5
+24-Jun-2024 19:33:44.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+24-Jun-2024 19:33:44.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/vannhat/Library/Java/JavaVirtualMachines/corretto-21.0.3/Contents/Home
+24-Jun-2024 19:33:44.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.3+9-LTS
+24-Jun-2024 19:33:44.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+24-Jun-2024 19:33:44.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90
+24-Jun-2024 19:33:44.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90
+24-Jun-2024 19:33:44.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+24-Jun-2024 19:33:44.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+24-Jun-2024 19:33:44.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+24-Jun-2024 19:33:44.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-Jun-2024 19:33:44.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-Jun-2024 19:33:44.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/logging.properties
+24-Jun-2024 19:33:44.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Jun-2024 19:33:44.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Jun-2024 19:33:44.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Jun-2024 19:33:44.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Jun-2024 19:33:44.174 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Jun-2024 19:33:44.174 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90
+24-Jun-2024 19:33:44.174 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90
+24-Jun-2024 19:33:44.174 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/temp
+24-Jun-2024 19:33:44.182 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/vannhat/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+24-Jun-2024 19:33:44.424 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Jun-2024 19:33:44.446 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [428] milliseconds
+24-Jun-2024 19:33:44.472 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Jun-2024 19:33:44.473 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.90]
+24-Jun-2024 19:33:44.477 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/docs]
+24-Jun-2024 19:33:44.667 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/docs] has finished in [190] ms
+24-Jun-2024 19:33:44.668 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/manager]
+24-Jun-2024 19:33:44.692 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/manager] has finished in [24] ms
+24-Jun-2024 19:33:44.692 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/examples]
+24-Jun-2024 19:33:44.866 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/examples] has finished in [174] ms
+24-Jun-2024 19:33:44.866 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/ROOT]
+24-Jun-2024 19:33:44.879 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/ROOT] has finished in [13] ms
+24-Jun-2024 19:33:44.879 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/host-manager]
+24-Jun-2024 19:33:44.894 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/host-manager] has finished in [15] ms
+24-Jun-2024 19:33:44.896 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Jun-2024 19:33:44.903 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [457] milliseconds
+24-Jun-2024 19:33:54.566 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/demo_servlet.xml]
+24-Jun-2024 19:33:54.569 WARNING [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/demo_servlet] in deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/demo_servlet.xml] has been ignored
+24-Jun-2024 19:33:54.794 INFO [http-nio-8080-exec-9] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Jun-2024 19:33:54.806 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/demo_servlet.xml] has finished in [240] ms
+24-Jun-2024 19:33:54.811 INFO [http-nio-8080-exec-10] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/demo_servlet]] after start() had already been called. The second call will be ignored.
+24-Jun-2024 19:37:16.779 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-Jun-2024 19:37:16.781 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Jun-2024 19:37:16.783 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Jun-2024 19:37:16.815 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [demo_servlet] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+24-Jun-2024 19:37:16.819 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Jun-2024 19:37:16.833 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

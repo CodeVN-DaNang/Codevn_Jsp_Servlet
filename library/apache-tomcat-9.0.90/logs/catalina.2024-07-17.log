@@ -1,0 +1,384 @@
+17-Jul-2024 10:24:59.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.90
+17-Jul-2024 10:24:59.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 14 2024 14:45:13 UTC
+17-Jul-2024 10:24:59.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.90.0
+17-Jul-2024 10:24:59.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+17-Jul-2024 10:24:59.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.5
+17-Jul-2024 10:24:59.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+17-Jul-2024 10:24:59.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/vannhat/Library/Java/JavaVirtualMachines/corretto-21.0.3/Contents/Home
+17-Jul-2024 10:24:59.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.3+9-LTS
+17-Jul-2024 10:24:59.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+17-Jul-2024 10:24:59.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90
+17-Jul-2024 10:24:59.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90
+17-Jul-2024 10:24:59.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Jul-2024 10:24:59.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-Jul-2024 10:24:59.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+17-Jul-2024 10:24:59.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Jul-2024 10:24:59.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Jul-2024 10:24:59.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/logging.properties
+17-Jul-2024 10:24:59.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Jul-2024 10:24:59.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|NHATs-MBP
+17-Jul-2024 10:24:59.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Jul-2024 10:24:59.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Jul-2024 10:24:59.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Jul-2024 10:24:59.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Jul-2024 10:24:59.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90
+17-Jul-2024 10:24:59.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90
+17-Jul-2024 10:24:59.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/temp
+17-Jul-2024 10:24:59.122 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/vannhat/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+17-Jul-2024 10:24:59.469 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Jul-2024 10:24:59.497 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [575] milliseconds
+17-Jul-2024 10:24:59.536 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Jul-2024 10:24:59.537 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.90]
+17-Jul-2024 10:24:59.546 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/realgroup2.xml]
+17-Jul-2024 10:24:59.564 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/realgroup2] in deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/realgroup2.xml] has been ignored
+17-Jul-2024 10:25:00.679 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2024 10:25:00.716 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/realgroup2.xml] has finished in [1,170] ms
+17-Jul-2024 10:25:00.716 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/WebsiteThoiTrang.xml]
+17-Jul-2024 10:25:00.717 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebsiteThoiTrang] in deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/WebsiteThoiTrang.xml] has been ignored
+17-Jul-2024 10:25:02.621 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2024 10:25:02.629 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/WebsiteThoiTrang.xml] has finished in [1,913] ms
+17-Jul-2024 10:25:02.629 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/practice_exam.xml]
+17-Jul-2024 10:25:02.630 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/practice_exam] in deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/practice_exam.xml] has been ignored
+17-Jul-2024 10:25:02.633 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/practice_exam.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1844)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:385)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:332)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:878)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@23c0d01c]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4120)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4242)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/Users/vannhat/Documents/Codevn_Jsp_Servlet/practice_exam/build/web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 39 more
+17-Jul-2024 10:25:02.634 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/practice_exam.xml] has finished in [5] ms
+17-Jul-2024 10:25:02.634 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/practical_exam.xml]
+17-Jul-2024 10:25:02.635 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/practical_exam] in deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/practical_exam.xml] has been ignored
+17-Jul-2024 10:25:02.637 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/practical_exam.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1844)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:385)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:332)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:878)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@164466e4]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4120)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4242)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/Users/vannhat/Documents/Codevn_Jsp_Servlet/practical_exam/build/web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 39 more
+17-Jul-2024 10:25:02.637 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/practical_exam.xml] has finished in [3] ms
+17-Jul-2024 10:25:02.637 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/demo_khanh.xml]
+17-Jul-2024 10:25:02.638 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/demo_khanh] in deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/demo_khanh.xml] has been ignored
+17-Jul-2024 10:25:02.781 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2024 10:25:02.786 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/demo_khanh.xml] has finished in [149] ms
+17-Jul-2024 10:25:02.787 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/docs]
+17-Jul-2024 10:25:02.801 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/docs] has finished in [14] ms
+17-Jul-2024 10:25:02.801 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/manager]
+17-Jul-2024 10:25:02.822 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/manager] has finished in [21] ms
+17-Jul-2024 10:25:02.822 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/examples]
+17-Jul-2024 10:25:02.940 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/examples] has finished in [118] ms
+17-Jul-2024 10:25:02.940 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/ROOT]
+17-Jul-2024 10:25:02.953 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/ROOT] has finished in [13] ms
+17-Jul-2024 10:25:02.953 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/host-manager]
+17-Jul-2024 10:25:02.967 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/host-manager] has finished in [14] ms
+17-Jul-2024 10:25:02.971 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Jul-2024 10:25:02.981 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3483] milliseconds
+17-Jul-2024 10:25:03.949 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/pe_prj_de123456.xml]
+17-Jul-2024 10:25:03.950 WARNING [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/pe_prj_de123456] in deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/pe_prj_de123456.xml] has been ignored
+17-Jul-2024 10:25:04.158 INFO [http-nio-8080-exec-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2024 10:25:04.163 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/pe_prj_de123456.xml] has finished in [215] ms
+17-Jul-2024 10:25:04.168 INFO [http-nio-8080-exec-1] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/pe_prj_de123456]] after start() had already been called. The second call will be ignored.
+17-Jul-2024 10:25:06.587 INFO [http-nio-8080-exec-3] org.apache.tomcat.util.http.parser.Cookie.logInvalidHeader A cookie header was received [g_state={"i_l":0};] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+17-Jul-2024 10:25:30.810 INFO [http-nio-8080-exec-4] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/pe_prj_de123456] has started
+17-Jul-2024 10:25:30.978 INFO [http-nio-8080-exec-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2024 10:25:30.983 INFO [http-nio-8080-exec-4] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/pe_prj_de123456] is completed
+17-Jul-2024 10:29:04.605 INFO [http-nio-8080-exec-16] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/pe_prj_de123456] has started
+17-Jul-2024 10:29:04.829 INFO [http-nio-8080-exec-16] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2024 10:29:04.841 INFO [http-nio-8080-exec-16] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/pe_prj_de123456] is completed
+17-Jul-2024 10:29:19.235 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+17-Jul-2024 10:29:19.235 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Jul-2024 10:29:19.240 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Jul-2024 10:29:19.263 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Jul-2024 10:29:19.278 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Jul-2024 10:29:22.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.90
+17-Jul-2024 10:29:22.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 14 2024 14:45:13 UTC
+17-Jul-2024 10:29:22.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.90.0
+17-Jul-2024 10:29:22.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+17-Jul-2024 10:29:22.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.5
+17-Jul-2024 10:29:22.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+17-Jul-2024 10:29:22.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/vannhat/Library/Java/JavaVirtualMachines/corretto-21.0.3/Contents/Home
+17-Jul-2024 10:29:22.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.3+9-LTS
+17-Jul-2024 10:29:22.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+17-Jul-2024 10:29:22.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90
+17-Jul-2024 10:29:22.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90
+17-Jul-2024 10:29:22.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Jul-2024 10:29:22.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-Jul-2024 10:29:22.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+17-Jul-2024 10:29:22.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Jul-2024 10:29:22.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Jul-2024 10:29:22.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/logging.properties
+17-Jul-2024 10:29:22.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Jul-2024 10:29:22.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|NHATs-MBP
+17-Jul-2024 10:29:22.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Jul-2024 10:29:22.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Jul-2024 10:29:22.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Jul-2024 10:29:22.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Jul-2024 10:29:22.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90
+17-Jul-2024 10:29:22.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90
+17-Jul-2024 10:29:22.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/temp
+17-Jul-2024 10:29:22.773 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/vannhat/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+17-Jul-2024 10:29:23.240 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Jul-2024 10:29:23.313 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [739] milliseconds
+17-Jul-2024 10:29:23.393 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Jul-2024 10:29:23.393 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.90]
+17-Jul-2024 10:29:23.405 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/pe_prj_de123456.xml]
+17-Jul-2024 10:29:23.434 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/pe_prj_de123456] in deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/pe_prj_de123456.xml] has been ignored
+17-Jul-2024 10:29:24.060 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2024 10:29:24.095 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/pe_prj_de123456.xml] has finished in [690] ms
+17-Jul-2024 10:29:24.095 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/realgroup2.xml]
+17-Jul-2024 10:29:24.096 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/realgroup2] in deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/realgroup2.xml] has been ignored
+17-Jul-2024 10:29:24.726 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2024 10:29:24.736 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/realgroup2.xml] has finished in [641] ms
+17-Jul-2024 10:29:24.737 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/WebsiteThoiTrang.xml]
+17-Jul-2024 10:29:24.738 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebsiteThoiTrang] in deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/WebsiteThoiTrang.xml] has been ignored
+17-Jul-2024 10:29:27.880 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2024 10:29:27.889 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/WebsiteThoiTrang.xml] has finished in [3,152] ms
+17-Jul-2024 10:29:27.890 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/practice_exam.xml]
+17-Jul-2024 10:29:27.890 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/practice_exam] in deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/practice_exam.xml] has been ignored
+17-Jul-2024 10:29:27.893 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/practice_exam.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1844)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:385)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:332)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:878)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@21879bd6]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4120)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4242)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/Users/vannhat/Documents/Codevn_Jsp_Servlet/practice_exam/build/web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 39 more
+17-Jul-2024 10:29:27.895 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/practice_exam.xml] has finished in [5] ms
+17-Jul-2024 10:29:27.895 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/practical_exam.xml]
+17-Jul-2024 10:29:27.896 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/practical_exam] in deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/practical_exam.xml] has been ignored
+17-Jul-2024 10:29:27.897 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/practical_exam.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1844)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:385)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:332)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:878)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@63f410d0]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4120)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4242)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/Users/vannhat/Documents/Codevn_Jsp_Servlet/practical_exam/build/web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 39 more
+17-Jul-2024 10:29:27.898 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/practical_exam.xml] has finished in [3] ms
+17-Jul-2024 10:29:27.898 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/demo_khanh.xml]
+17-Jul-2024 10:29:27.899 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/demo_khanh] in deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/demo_khanh.xml] has been ignored
+17-Jul-2024 10:29:28.126 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2024 10:29:28.141 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/demo_khanh.xml] has finished in [242] ms
+17-Jul-2024 10:29:28.142 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/docs]
+17-Jul-2024 10:29:28.175 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/docs] has finished in [33] ms
+17-Jul-2024 10:29:28.176 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/manager]
+17-Jul-2024 10:29:28.316 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/manager] has finished in [140] ms
+17-Jul-2024 10:29:28.317 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/examples]
+17-Jul-2024 10:29:28.734 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/examples] has finished in [416] ms
+17-Jul-2024 10:29:28.734 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/ROOT]
+17-Jul-2024 10:29:28.750 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/ROOT] has finished in [16] ms
+17-Jul-2024 10:29:28.750 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/host-manager]
+17-Jul-2024 10:29:28.767 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/host-manager] has finished in [17] ms
+17-Jul-2024 10:29:28.773 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Jul-2024 10:29:28.786 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [5470] milliseconds
+17-Jul-2024 10:29:45.088 INFO [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/pe_prj_de123456] has started
+17-Jul-2024 10:29:45.258 INFO [http-nio-8080-exec-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2024 10:29:45.263 INFO [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/pe_prj_de123456] is completed
+17-Jul-2024 10:29:47.095 INFO [http-nio-8080-exec-2] org.apache.tomcat.util.http.parser.Cookie.logInvalidHeader A cookie header was received [g_state={"i_l":0};] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+17-Jul-2024 10:30:31.110 INFO [http-nio-8080-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/pe_prj_de123456] has started
+17-Jul-2024 10:30:31.421 INFO [http-nio-8080-exec-12] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2024 10:30:31.427 INFO [http-nio-8080-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/pe_prj_de123456] is completed
+17-Jul-2024 10:31:38.972 INFO [http-nio-8080-exec-19] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/pe_prj_de123456] has started
+17-Jul-2024 10:31:39.205 INFO [http-nio-8080-exec-19] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2024 10:31:39.210 INFO [http-nio-8080-exec-19] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/pe_prj_de123456] is completed
+17-Jul-2024 10:31:51.449 INFO [http-nio-8080-exec-23] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/pe_prj_de123456] has started
+17-Jul-2024 10:31:51.742 INFO [http-nio-8080-exec-23] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2024 10:31:51.747 INFO [http-nio-8080-exec-23] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/pe_prj_de123456] is completed
+17-Jul-2024 10:32:38.246 INFO [http-nio-8080-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/pe_prj_de123456] has started
+17-Jul-2024 10:32:38.432 INFO [http-nio-8080-exec-26] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2024 10:32:38.436 INFO [http-nio-8080-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/pe_prj_de123456] is completed
+17-Jul-2024 10:33:33.960 INFO [http-nio-8080-exec-28] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/pe_prj_de123456] has started
+17-Jul-2024 10:33:34.114 INFO [http-nio-8080-exec-28] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2024 10:33:34.119 INFO [http-nio-8080-exec-28] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/pe_prj_de123456] is completed
+17-Jul-2024 10:35:28.175 INFO [http-nio-8080-exec-39] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/pe_prj_de123456] has started
+17-Jul-2024 10:35:28.189 WARNING [http-nio-8080-exec-39] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [pe_prj_de123456] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+17-Jul-2024 10:35:28.655 INFO [http-nio-8080-exec-39] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2024 10:35:28.660 INFO [http-nio-8080-exec-39] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/pe_prj_de123456] is completed
+17-Jul-2024 10:36:09.879 INFO [http-nio-8080-exec-40] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/pe_prj_de123456] has started
+17-Jul-2024 10:36:10.184 INFO [http-nio-8080-exec-40] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2024 10:36:10.196 INFO [http-nio-8080-exec-40] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/pe_prj_de123456] is completed
+17-Jul-2024 10:43:40.747 INFO [http-nio-8080-exec-52] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/pe_prj_de123456] has started
+17-Jul-2024 10:43:40.973 INFO [http-nio-8080-exec-52] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2024 10:43:40.977 INFO [http-nio-8080-exec-52] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/pe_prj_de123456] is completed
+17-Jul-2024 10:57:16.655 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+17-Jul-2024 10:57:16.656 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Jul-2024 10:57:16.659 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Jul-2024 10:57:16.740 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [pe_prj_de123456] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+17-Jul-2024 10:57:16.752 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Jul-2024 10:57:16.761 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

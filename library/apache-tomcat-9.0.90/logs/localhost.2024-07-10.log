@@ -1,0 +1,11 @@
+10-Jul-2024 13:17:14.670 INFO [main] org.apache.catalina.core.ApplicationContext.log HelloFilter:Initializing filter
+10-Jul-2024 13:17:14.953 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Jul-2024 13:17:14.953 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Jul-2024 13:17:14.954 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@3e03037f')
+10-Jul-2024 13:22:35.207 INFO [http-nio-8080-exec-15] org.apache.catalina.core.ApplicationContext.log EmailFilter:Initializing filter
+10-Jul-2024 13:22:35.897 INFO [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log EmailFilter:Initializing filter
+10-Jul-2024 13:25:51.062 INFO [http-nio-8080-exec-25] org.apache.catalina.core.ApplicationContext.log EmailFilter:Initializing filter
+10-Jul-2024 13:25:51.940 INFO [http-nio-8080-exec-23] org.apache.catalina.core.ApplicationContext.log EmailFilter:Initializing filter
+10-Jul-2024 13:25:57.210 INFO [http-nio-8080-exec-24] org.apache.catalina.core.ApplicationContext.log EmailFilter:Initializing filter
+10-Jul-2024 13:28:54.914 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Jul-2024 13:28:54.914 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()

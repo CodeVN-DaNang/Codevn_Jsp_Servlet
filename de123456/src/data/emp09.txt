@@ -1,0 +1,8 @@
+ID=Emp001:Name=Nguyen Van Minh:dob=26/12/1995:sal=6000000
+ID=Emp002:Name=Pham Minh Thang:dob=01/01/1900:sal=10000000
+ID=Emp003:Name=Doan Minh Tri:dob=27/12/2000:sal=15000000
+ID=Emp04:Name=Doan Thi Mai:dob=28/12/2010:sal=21000000
+ID=E005:Name=Ly Thuong Kiet:dob=30/12/2020:sal=21000000
+ID=Emp006:Name=Tran Nam Anh:dob=29/12/2015:sal=7000000
+ID=Emp07:Name=Tran Minh Nam:dob=31/12/2019:sal=2000000
+ID=Khanh:Name=Khanh:dob=31/12/2002:sal=1000000

@@ -1,0 +1,60 @@
+09-Jul-2024 19:35:30.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.90
+09-Jul-2024 19:35:30.636 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 14 2024 14:45:13 UTC
+09-Jul-2024 19:35:30.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.90.0
+09-Jul-2024 19:35:30.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+09-Jul-2024 19:35:30.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.5
+09-Jul-2024 19:35:30.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+09-Jul-2024 19:35:30.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/vannhat/Library/Java/JavaVirtualMachines/corretto-21.0.3/Contents/Home
+09-Jul-2024 19:35:30.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.3+9-LTS
+09-Jul-2024 19:35:30.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+09-Jul-2024 19:35:30.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90
+09-Jul-2024 19:35:30.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90
+09-Jul-2024 19:35:30.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Jul-2024 19:35:30.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Jul-2024 19:35:30.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Jul-2024 19:35:30.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Jul-2024 19:35:30.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Jul-2024 19:35:30.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/logging.properties
+09-Jul-2024 19:35:30.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Jul-2024 19:35:30.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|NHATs-MacBook-Pro.local
+09-Jul-2024 19:35:30.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Jul-2024 19:35:30.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Jul-2024 19:35:30.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+09-Jul-2024 19:35:30.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Jul-2024 19:35:30.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90
+09-Jul-2024 19:35:30.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90
+09-Jul-2024 19:35:30.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/temp
+09-Jul-2024 19:35:30.659 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/vannhat/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+09-Jul-2024 19:35:30.917 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Jul-2024 19:35:30.947 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [455] milliseconds
+09-Jul-2024 19:35:30.978 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Jul-2024 19:35:30.978 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.90]
+09-Jul-2024 19:35:30.983 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/demo_khanh.xml]
+09-Jul-2024 19:35:30.994 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/demo_khanh] in deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/demo_khanh.xml] has been ignored
+09-Jul-2024 19:35:31.576 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jul-2024 19:35:31.613 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/demo_khanh.xml] has finished in [629] ms
+09-Jul-2024 19:35:31.614 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/docs]
+09-Jul-2024 19:35:31.639 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/docs] has finished in [25] ms
+09-Jul-2024 19:35:31.640 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/manager]
+09-Jul-2024 19:35:31.677 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/manager] has finished in [36] ms
+09-Jul-2024 19:35:31.677 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/examples]
+09-Jul-2024 19:35:31.919 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/examples] has finished in [242] ms
+09-Jul-2024 19:35:31.920 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/ROOT]
+09-Jul-2024 19:35:31.944 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/ROOT] has finished in [24] ms
+09-Jul-2024 19:35:31.945 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/host-manager]
+09-Jul-2024 19:35:31.983 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/webapps/host-manager] has finished in [37] ms
+09-Jul-2024 19:35:31.986 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Jul-2024 19:35:31.999 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1051] milliseconds
+09-Jul-2024 19:35:34.444 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/WebsiteThoiTrang.xml]
+09-Jul-2024 19:35:34.445 WARNING [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebsiteThoiTrang] in deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/WebsiteThoiTrang.xml] has been ignored
+09-Jul-2024 19:35:36.442 INFO [http-nio-8080-exec-10] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jul-2024 19:35:36.447 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/vannhat/Documents/Codevn_Jsp_Servlet/library/apache-tomcat-9.0.90/conf/Catalina/localhost/WebsiteThoiTrang.xml] has finished in [2,003] ms
+09-Jul-2024 19:35:36.453 INFO [http-nio-8080-exec-1] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebsiteThoiTrang]] after start() had already been called. The second call will be ignored.
+09-Jul-2024 19:35:38.415 INFO [http-nio-8080-exec-2] org.apache.tomcat.util.http.parser.Cookie.logInvalidHeader A cookie header was received [g_state={"i_l":0}] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+09-Jul-2024 19:37:28.008 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+09-Jul-2024 19:37:28.011 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Jul-2024 19:37:28.015 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Jul-2024 19:37:28.139 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [WebsiteThoiTrang] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+09-Jul-2024 19:37:28.159 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Jul-2024 19:37:28.175 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
